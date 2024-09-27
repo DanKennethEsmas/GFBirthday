@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+* {
+    font-family: "Coiny", system-ui;
+    
+}
+
+body {
+    background-image: url(9130adbe-7480-4be9-bfd8-3cfa3586c5b2.jpg);
+}
+
+.container {
+    display: flex;
+    height: 28em;
+    width: 40em;
+    background-color:rgba(243, 159, 172, 0.8);
+    margin: 10em auto; /*to center the container*/
+    border: 7px solid rgb(160, 27, 160);
+    border-radius: 20px;
+}
+
+.img {
+    margin-top: 3em;
+    margin-left: 3em;
+    max-width: 100%;
+    min-width: 10em;
+}
+
+img {
+    width: 12em;
+    height: 18em;
+    border: 7px double rgb(160, 27, 160);
+    border-radius: 20px;
+}
+
+p {
+    font-weight: bold;
+    width: 10em;
+    color: rgb(160, 27, 160);
+    margin-left: 0;
+    transition: color 0.5s linear;
+
+}
+
+p:hover {
+    color: pink;
+}
+
+.bday {
+    margin-left: 30px;
+    color: rgb(160, 27, 160);
+    transition: color 0.5s linear;
+}
+
+.bday:hover {
+    color: rgb(238, 12, 12);
+}
+
+
+.date {
+    margin-left: 0;
+    margin-top: 3em;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5em; 
+    color: rgb(160, 27, 160);
+}
+
+input[type="date"] {
+    height: 3em;
+    width: 14em;
+    border: none;
+    background-color: rgba(160, 27, 160, 0.4);
+    border-radius: 12px;
+    text-align: center;
+    color: pink;
+    cursor: pointer;
+    transition: outline 0.5s linear;
+}
+
+input:hover {
+    outline: 1px solid rgb(160, 27, 160);
+    
+}
+
+.link {
+    margin-top: 5em;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: pink;
+    transition: background-color 1s linear;
+}
+
+a:hover {
+    background-color: rgba(160, 27, 160, 0.7);
+    border-radius: 20px;
+    
+}

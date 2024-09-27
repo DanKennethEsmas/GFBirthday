@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+* {
+    font-family: "Coiny", system-ui;
+    
+}
+
+body {
+    max-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: rgba(243, 159, 172, 0.8);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+img {
+    width: 50%;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+    display: flex;
+}
+
+a {
+    margin-top: 25%;
+    font-size: 2.5em;    
+    text-decoration: none;
+    
+    
+}
+
+label {
+    color: rgba(243, 159, 172, 0.8);
+    transition: color 1s linear;
+    cursor: pointer;
+}
+
+label:hover{
+    color: rgb(160, 27, 160);
+}
+
+p {
+    padding-top: 35%;
+    margin-left: 3em;
+    color: rgba(243, 159, 172, 0.8);
+    transition: color 1s linear;
+    font-size: 1.5em;
+
+}
+
+p:hover {
+    color: rgb(160, 27, 160);
+}
+
+.cats {
+    display: flex; /* Makes the container a flexbox */
+    justify-content: center; /* Centers horizontally */
+    text-align: center;
+    align-items: center; /* Centers vertically */
+    height: 100%;
+    padding-bottom: 3em; 
+}
+
+.cat-pic {
+    width: 20%;
+    height: 20%;
+    border: 3px solid rgba(243, 159, 172, 0.8);
+    border-radius: 15px;
+    margin: 0 0.5em;
+}

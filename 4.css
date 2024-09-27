@@ -1,0 +1,74 @@
+/*rem base on root size*/
+/*em base in parent element size*/
+/*tips use rem in padding and margin give global consistency*/
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+* {
+    font-family: "Coiny", system-ui; 
+    margin: 0;
+}
+
+body {
+    color: rgb(165, 37, 165);
+    place-items: center;
+    display: grid;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 85vh;
+    width: 80vw;
+    margin-top: 5em;
+}
+
+img {
+    margin-top: 5rem;
+}
+
+.text {
+    text-align: justify;
+}
+
+.space p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.space h1 {
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+
+.link {
+    margin-top: 3rem;
+    padding-bottom: 3em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(165, 37, 165);
+    transition: background-color, border-radius 0.5s linear;
+}
+
+a:hover {
+    background-color:rgba(243, 159, 172, 0.8);
+    padding: 1rem; 
+    border-radius: 15px; 
+    text-decoration: underline;
+}
+
+.link, label {
+    cursor: pointer;
+}

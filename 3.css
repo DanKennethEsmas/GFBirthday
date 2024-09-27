@@ -1,0 +1,63 @@
+/*rem base on root size*/
+/*em base in parent element size*/
+/*tips use rem in padding and margin give global consistency*/
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+* {
+    font-family: "Coiny", system-ui; 
+    margin: 0;
+}
+
+body {
+    background-image: url(Cute\ Birthday\ Line\ Dragonfly\ Background\ Cartoon\ Birthday\ Illustration\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpg);
+
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 70vh;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(160, 27, 160);
+}
+
+.container img {
+    text-align: center;
+    width: 8vw;
+    height: 20vh;
+    margin: 4px;
+    border: 5px solid rgb(160, 27, 160);
+    border-radius: 12px;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-right: 7rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color, border-radius, 0.5s linear;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color:rgba(243, 159, 172, 0.8);
+    border-radius: 15px;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 1.3em;
+    color: rgb(160, 27, 160);
+}
+
+
+
